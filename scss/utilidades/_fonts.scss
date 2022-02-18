@@ -1,0 +1,31 @@
+
+/* TAMANIOS DE FUENTE */
+
+.step-1{
+    font-size: unquote("clamp(0.68rem,  0.36rem   +  0.61vw,  0.81rem)");
+}
+
+.step-2{
+    font-size: unquote("clamp(0.81rem,  0.42rem   +  0.80vw,  1rem)");
+}
+
+.step-3{
+    font-size: unquote("clamp(0.87rem,  0.4375rem +  0.80vw,  1.12rem)");
+}
+
+
+.step-4{
+    font-size: unquote("clamp(0.93rem,  0.4375rem +  0.85vw,  1.25rem)");
+}
+
+.step-5{
+    font-size: unquote("clamp(1rem, 0.60rem + 1.35vw, 2.37rem)");
+}
+
+.step-6{
+    font-size: unquote("clamp(1.18rem, 0.875rem + 1.5vw, 2.5rem)");
+}
+
+.step-7{
+    font-size: unquote("clamp(1.5rem, 0.84rem + 2vw, 2.81rem)");
+}

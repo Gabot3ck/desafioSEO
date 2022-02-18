@@ -1,0 +1,5 @@
+@mixin efecto_sombra {
+    -webkit-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+    -moz-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+    box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+}

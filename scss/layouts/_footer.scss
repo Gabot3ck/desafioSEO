@@ -1,0 +1,53 @@
+@import "../utilidades/variables";
+/* FOOTER */
+.footer{
+    background-color: $color-footer;
+    .rrss_footer{
+        h3{
+            color: $title-footer;
+        }
+    }
+    .logo___footer{
+        h2{
+            color: $title-footer;
+        }
+        p{
+            color: $text-footer;
+        }
+    }
+    .copyright__footer{
+        a{
+            font-size: 1.1em;
+            color: $color-background;
+            &:visited{
+                color: $color-background;
+            }
+            &:hover{
+                color: $color-secondary;
+            }
+        }
+        p{
+            color: $text-footer;
+        }
+    }
+
+}
+.enlace__footer{
+    color: $title-footer;
+    &:hover{
+        color: $color-background;
+    }
+}
+.subenlace__footer{
+    color: $text-footer;
+    &:hover{
+        color: $color-secondary;
+    }
+    
+}
+.background__copyright__footer{
+	background-color: $color-copyright;
+}
+
+
+/*   FIN   DE  FOOTER  */

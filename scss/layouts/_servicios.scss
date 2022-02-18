@@ -1,0 +1,222 @@
+@import "utilidades/variables";
+
+/* SERVICIOS */
+
+.servicios__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/servicios.jpg);
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/servicios.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+/* odontologia-general */
+.odontologia__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/odontologia-general.jpg);
+
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/odontologia-general.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*endodoncia */
+.endodoncia__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/endodoncia.jpg);
+
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/endodoncia.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*estetica-dental */
+.estetica__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/estetica-dental.jpg);
+
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/estetica-dental.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*odontopediatria */
+.odontopediatria__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/odontopediatria.jpg);
+
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/odontopediatria.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*Ortodoncia */
+.ortodoncia__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/ortodoncia.jpg);
+
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/ortodoncia.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*periodoncia */
+.periodoncia__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/periodoncia.jpg);
+
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/periodoncia.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

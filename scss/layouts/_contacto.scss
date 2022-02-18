@@ -1,0 +1,184 @@
+@import "utilidades/variables";
+
+/* CONTACTO  */
+
+.contacto__header{
+	background: rgba(27, 30, 31, .9);
+	background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/fondo-contacto.jpg);
+	background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),
+	rgba(27,31,32,.5)), url(../images/fondo-contacto.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    h1{
+        color: white;
+        font-size: 1.5em;
+    }
+    p{
+        font-size: .6em;
+        font-weight: 400;
+    }
+    a{
+        margin: 0 auto;
+    }
+    .boton{
+        width: 3em;
+		height: 1em;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.wrapper__formulario{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(2, minmax(min-content,max-content));
+	grid-template-areas: 
+		"titulo      titulo      titulo      titulo"
+		"formulario  formulario  ubicacion   ubicacion";
+	justify-items: center;
+    .titulo__enlaces{
+        grid-area: titulo;
+    }
+    form{
+        padding: 20px 10px;
+        width: 100%;
+        max-width: 700px;
+        grid-area: formulario;
+        div{
+            margin-bottom: 20px;
+            &:nth-child(4){
+                margin-right: 3%;
+                width: 48%;
+                display: inline-block;
+            }
+            &:nth-child(5){
+                margin: 0 auto;
+                width: 48%;
+                display: inline-block;
+            }
+            p{
+                color: $color-footer;
+                font-weight: 500;
+            }
+        }
+        &>p{
+            margin-bottom: 20px;
+            font-size: 1.15rem;
+            color: $color-contacto;
+        }
+        .form-control{
+            padding: 10px 15px;
+            margin: 10px auto;
+            border: 2px solid $color-grey;
+            width: 100%;
+            height: 45px;
+            color: $color-contacto;
+            font-size: 1rem;
+        }
+        textarea{
+            min-height: 230px;
+        }
+    }
+}
+
+.wrapper__radio{
+	width: 100%;
+	height: auto;
+	grid-area: consulta;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+    &>p{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    input{
+        margin-right: 5px;
+    }
+    label {
+        color: $color-contacto;
+    }
+}
+select{
+    padding: 10px 15px;
+    margin: 10px auto;
+    border: 2px solid $color-grey;
+    width: 100%;
+    height: 45px;
+    color: $color-contacto;
+    font-size: 1rem;
+    &:focus{
+        outline: none;
+        border-color: $color-background !important;
+        box-shadow: none;
+    }
+}
+
+
+/* UBICACION */
+
+.ubicacion{
+	padding: 20px 10px;
+	width: 100%;
+	grid-area: ubicacion;
+    h3{
+        margin-bottom: 30px;
+        grid-area: subtitulo;
+        font-size: .6em;
+    }
+    h4{
+        margin-bottom: 30px;
+        font-size: .5em;
+    }
+}
+
+.wrapper__datos__direccion{
+	margin-bottom: 30px;
+    display: flex;
+	justify-content: space-between ;
+	grid-area: contacto;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: .4em;
+    }
+    div{
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+
+.ubicacion__direccion{
+	grid-area: direccion;
+    p{
+        font-size: .4em;
+    }
+}
+
+.ubicacion__mapa{
+    iframe{
+        border: 0;
+        width: 100%;
+        min-height: 320px;
+    }
+}
+
+.fa-map-marker-alt,
+.fa-envelope, 
+.fa-phone-alt, 
+.fa-whatsapp {
+    margin-right: 15px;
+	color: $color-background;
+	font-size: 1.2em;
+	font-weight: 700;
+}

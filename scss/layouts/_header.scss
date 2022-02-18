@@ -1,0 +1,69 @@
+@import "../utilidades/variables";
+@import "../componentes/botones";
+
+/* HEADER */
+.header{
+	position: relative;
+	top: 0;
+	margin: 0 auto ;
+	border-radius: 15px;
+	padding: 0 5px;
+	width: 100%;
+	height: 75vh;
+	max-height: 700px;
+	max-width: 1200px;
+	color: $color-footer;
+	overflow: hidden;
+    .cajon{
+        z-index: 980;
+        border: none;
+        max-height: 700px;
+        h1{
+            color: white;
+			font-size: 1.5em;
+        }
+		h3{
+			font-size: .8em;
+		}
+        p{
+            font-size: .4em;
+            font-weight: 500;
+        }
+        a{
+            margin: 0 auto;
+        }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.color__index__header{
+	background: #84e48a;
+	background: -webkit-linear-gradient(to right,rgba(132, 228, 138, 0.9),
+	rgba(110,198,214,.8), rgba(255,0,255,.7));
+	background: linear-gradient(to right,rgba(132, 228, 138, 0.9),
+	rgba(110,198,214,.8), rgba(255,0,255,.7));
+}
+
+.color__index__enlaces{
+	background: rgba(27, 30, 31, .5);
+}
+
+.header__enlaces{
+	height: calc(100vh - 80px);
+	color: white;
+    img{
+        height: inherit;
+        width: 100% !important;
+    }
+}
+
+.wrapper_img{
+	margin: 0 auto;
+	max-width: 1200px;
+	background: rgba(27, 30, 31, .9);
+}
+
+/* FIN  DE  HEADER  */
