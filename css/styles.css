@@ -1000,3 +1000,100 @@ select {
   background-color: #1f1f1f; }
 
 /*   FIN   DE  FOOTER  */
+/**********  M  E  D  I  A     Q  U  E  R  I  E  S  **********/
+/* SMARTPHONE */
+@media (max-width: 480px) {
+  /* C O N T A C T O */
+  .wrapper__formulario {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-areas: "titulo      titulo     " "formulario  formulario " "ubicacion   ubicacion";
+    grid-column: 1/2;
+    grid-row: 3/9; }
+    .wrapper__formulario form div:nth-child(4), .wrapper__formulario form div:nth-child(5) {
+      margin: 0 auto;
+      width: 100%;
+      display: block; }
+  .wrapper__datos__direccion {
+    flex-direction: column; }
+  .ubicacion__datos,
+  .ubicacion__direccion {
+    padding-left: 30px; } }
+
+/* TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* C O N T A C T O */
+  .wrapper__formulario {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    grid-template-areas: "titulo      titulo     " "formulario  formulario " "ubicacion   ubicacion";
+    grid-column: 1/2;
+    grid-row: 4/9; }
+  .ubicacion__datos {
+    padding-left: 30px; } }
+
+@media screen and (max-width: 768px) {
+  .boton-second {
+    width: 9em; }
+  .navbar-nav .dropdown-menu {
+    position: absolute;
+    left: 80px; }
+  .header .cajon {
+    height: 40%;
+    text-align: center; }
+    .header .cajon p,
+    .header .cajon a {
+      font-size: .4em; }
+  .header img {
+    width: 100%; }
+  .promociones h2 {
+    font-size: 1.3em; }
+  .promociones .card-title {
+    font-size: .9em; }
+  .promociones .card-text {
+    font-size: .6em; }
+  .promociones .card-body a {
+    font-size: .6em; }
+  .calidad .cuerpo__calidad {
+    height: 12em; }
+    .calidad .cuerpo__calidad > p {
+      font-size: .6em; }
+    .calidad .cuerpo__calidad h3 {
+      font-size: 1.125em; }
+      .calidad .cuerpo__calidad h3 + p {
+        font-size: .8em; }
+    .calidad .cuerpo__calidad a {
+      font-size: .6em; }
+  .calidad .wrapper > div {
+    margin-bottom: 4em; }
+  .img__calidad {
+    height: 12em; }
+  .nosotros__header {
+    max-height: 700px; }
+  #nosotros {
+    margin-top: 20px; } }
+
+@media screen and (max-width: 991px) {
+  .promociones {
+    min-height: 100vh; }
+  .calidad {
+    margin-top: 0; } }
+
+/* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .promociones {
+    max-height: 80vh; }
+  .calidad {
+    margin-top: 200px; } }
+
+@media screen and (min-width: 1024px) {
+  .promociones {
+    max-height: 400px; }
+  .calidad {
+    margin-top: 300px; } }
+
+@media screen and (min-width: 1200px) {
+  .calidad {
+    margin-top: 380px; } }
+
+/********** F I N       M  E  D  I  A     Q  U  E  R  I  E  S  **********/
