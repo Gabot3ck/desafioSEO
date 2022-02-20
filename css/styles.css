@@ -630,7 +630,7 @@ p {
 .nosotros__header {
   background: rgba(27, 30, 31, 0.9);
   background: -webkit-linear-gradient(to bottom, rgba(27, 30, 31, 0.5), rgba(27, 31, 32, 0.5)), url(../images/nosotros.jpg);
-  background: linear-gradient(to bottom, rgba(27, 30, 31, 0.5), rgba(27, 31, 32, 0.5)), url(../../images/nosotros.jpg);
+  background: linear-gradient(to bottom, rgba(27, 30, 31, 0.5), rgba(27, 31, 32, 0.5)), url(../images/nosotros.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%; }
@@ -1041,7 +1041,6 @@ select {
   .header .cajon {
     height: 40%;
     text-align: center; }
-    .header .cajon p,
     .header .cajon a {
       font-size: .4em; }
   .header img {
@@ -1074,6 +1073,8 @@ select {
     margin-top: 20px; } }
 
 @media screen and (max-width: 991px) {
+  .header .cajon p {
+    font-size: .5em; }
   .promociones {
     min-height: 100vh; }
   .calidad {

@@ -75,7 +75,6 @@
         .cajon{
             height: 40%;
             text-align: center;
-            p,
             a{
                 font-size: .4em;
             }
@@ -136,6 +135,13 @@
 }
 
 @media screen and (max-width: 991px){
+    .header{
+        .cajon{
+            p{
+                font-size: .5em;
+            }
+        }
+    }        
 	.promociones{
 		min-height: 100vh;
 	}
@@ -154,6 +160,8 @@
 		margin-top: 200px;
 	}
 }
+
+
 @media screen and (min-width: 1024px){
 	.promociones{
 		max-height: 400px;
@@ -162,6 +170,8 @@
 		margin-top: 300px;
 	}
 }
+
+
 @media screen and (min-width: 1200px){
 	.calidad{
 		margin-top: 380px;
