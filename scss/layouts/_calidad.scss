@@ -17,7 +17,7 @@
     }
     .wrapper{
         >div{
-            margin-bottom: 2.5em;
+            margin-bottom: 4em;
         }
     }
     .cuerpo__calidad{
@@ -48,7 +48,7 @@
             border: 2px solid $color-background;
             font-size: .4em;
             font-weight: 600;
-            color: $color-copyright;
+            color: white;
             background-color: $color-background;
             &:hover{
                 border: 2px solid $color-background;

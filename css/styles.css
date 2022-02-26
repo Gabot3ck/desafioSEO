@@ -88,6 +88,26 @@ p {
     transform-origin: left;
     transform: scaleX(1); }
 
+.latido {
+  -webkit-animation: scale-up-center 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s infinite both;
+  animation: scale-up-center 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s infinite both; }
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
 /*BOTONES*/
 .boton, .boton_header {
   position: relative;
@@ -521,7 +541,7 @@ p {
   font-weight: 600; }
 
 .calidad .wrapper > div {
-  margin-bottom: 2.5em; }
+  margin-bottom: 4em; }
 
 .calidad .cuerpo__calidad {
   height: 8em; }
@@ -547,7 +567,7 @@ p {
     border: 2px solid #06c2cc;
     font-size: .4em;
     font-weight: 600;
-    color: #1f1f1f;
+    color: white;
     background-color: #06c2cc; }
     .calidad .cuerpo__calidad a:hover {
       border: 2px solid #06c2cc;
@@ -1098,6 +1118,6 @@ select {
 
 @media screen and (min-width: 1200px) {
   .calidad {
-    margin-top: 380px; } }
+    margin-top: 450px; } }
 
 /********** F I N       M  E  D  I  A     Q  U  E  R  I  E  S  **********/
