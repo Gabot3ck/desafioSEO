@@ -616,6 +616,10 @@ p {
   .clientes .card {
     border: none;
     background: transparent; }
+  .clientes .carousel-control-next {
+    margin-right: 150px; }
+  .clientes .carousel-control-prev {
+    margin-left: 150px; }
 
 .card__cliente {
   padding: .8em;
@@ -638,8 +642,8 @@ p {
 
 .foto__cliente {
   border-radius: 5px;
-  width: 60px;
-  height: 60px; }
+  width: 90px;
+  height: 90px; }
 
 /* FIN   CLIENTES  */
 /* PAGOS  */

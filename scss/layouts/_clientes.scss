@@ -22,6 +22,12 @@
         border: none;
         background: transparent;
     }
+    .carousel-control-next{
+        margin-right: 150px;
+    }
+    .carousel-control-prev{
+        margin-left: 150px;
+    }
 }
 
 .card__cliente{
@@ -50,8 +56,8 @@
 
 .foto__cliente{
 	border-radius: 5px;
-	width: 60px;
-	height: 60px;
+	width: 90px;
+	height: 90px;
 }
 
 /* FIN   CLIENTES  */
