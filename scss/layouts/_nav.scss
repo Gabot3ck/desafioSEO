@@ -20,20 +20,18 @@
                 animation: bounce-in-left 1.1s .6s ;
             }
         }
+		.nav-link{
+            &:visited{
+                color: $color-background;
+            }
+		}
 }
 .menu__dental,
 .dropdown-item{
     color: $color-background;
 } 
-
-.navbar-light{
-    .navbar-nav{
-        .nav-link{
-            &:visited{
-                color: $color-background;
-            }
-        }
-    }
+.active{
+	color: $color-secondary !important;
 }
 
 .menu__care{

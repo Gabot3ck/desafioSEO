@@ -196,13 +196,15 @@ p {
   .navbar .navbar-brand img {
     -webkit-animation: bounce-in-left 1.1s .6s;
     animation: bounce-in-left 1.1s .6s; }
+  .navbar .nav-link:visited {
+    color: #06c2cc; }
 
 .menu__dental,
 .dropdown-item {
   color: #06c2cc; }
 
-.navbar-light .navbar-nav .nav-link:visited {
-  color: #06c2cc; }
+.active {
+  color: #43d320 !important; }
 
 .menu__care {
   color: #43d320; }
