@@ -25,14 +25,15 @@
                 color: $color-background;
             }
 		}
+		.active{
+			color: $color-secondary !important;
+		}
 }
 .menu__dental,
 .dropdown-item{
     color: $color-background;
 } 
-.active{
-	color: $color-secondary !important;
-}
+
 
 .menu__care{
 	color: $color-secondary;

@@ -198,13 +198,12 @@ p {
     animation: bounce-in-left 1.1s .6s; }
   .navbar .nav-link:visited {
     color: #06c2cc; }
+  .navbar .active {
+    color: #43d320 !important; }
 
 .menu__dental,
 .dropdown-item {
   color: #06c2cc; }
-
-.active {
-  color: #43d320 !important; }
 
 .menu__care {
   color: #43d320; }
@@ -689,6 +688,8 @@ p {
     margin-bottom: 1em;
     font-weight: 600;
     font-size: 1.1em; }
+  .contenedor h4 {
+    margin-bottom: 2em; }
   .contenedor p {
     font-size: .4em;
     color: rgba(49, 49, 49, 0.8); }
@@ -999,8 +1000,10 @@ select {
 /* FOOTER */
 .footer {
   background-color: #313131; }
-  .footer .rrss_footer h3 {
-    color: #ccc; }
+  .footer .rrss_footer {
+    padding-top: 15px; }
+    .footer .rrss_footer h3 {
+      color: #ccc; }
   .footer .logo___footer h2 {
     color: #ccc; }
   .footer .logo___footer p {
