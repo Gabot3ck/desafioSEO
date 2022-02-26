@@ -1,4 +1,5 @@
 @import "utilidades/variables";
+@import "utilidades/sombras";
 
 /* SERVICIOS */
 
@@ -29,8 +30,13 @@
         width: 100%;
         height: 100%;
     }
+    
 }
-
+.servicios{
+    .card{
+        @include efecto_sombra;
+    }
+}
 
 
 /* odontologia-general */
