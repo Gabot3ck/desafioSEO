@@ -80,7 +80,7 @@ p {
     width: 85%;
     height: 2px;
     border-radius: 4px;
-    background-color: #3deb11;
+    background-color: #43d320;
     transform-origin: right;
     transform: scaleX(0);
     transition: transform 0.3s ease-in-out; }
@@ -112,19 +112,19 @@ p {
   border: 2px solid #06c2cc;
   background-color: #06c2cc; }
   .boton-principal:hover {
-    border: 2px solid white;
-    background-color: transparent; }
+    border: 2px solid #fc00ff;
+    background-color: #fc00ff; }
 
 .boton-second {
-  margin: 1.5em auto;
+  margin: 1.5em auto 0;
   width: 10em;
-  border: 2px solid #3deb11;
+  border: 2px solid #43d320;
   font-weight: 600;
   color: white;
-  background-color: #3deb11; }
+  background-color: #43d320; }
   .boton-second:hover {
-    border: 2px solid #3deb11;
-    color: #3deb11;
+    border: 2px solid #43d320;
+    color: #43d320;
     background-color: transparent;
     letter-spacing: 2px; }
 
@@ -141,14 +141,14 @@ p {
 
 .fa-whatsapp-square {
   font-size: 3.6rem;
-  color: #3deb11; }
+  color: #43d320; }
 
 .btn-footer {
   border: none;
   color: #8a8a8a;
   background: transparent; }
   .btn-footer:hover {
-    color: #3deb11; }
+    color: #43d320; }
 
 .fa-facebook-f,
 .fa-instagram,
@@ -157,7 +157,7 @@ p {
   .fa-facebook-f:hover,
   .fa-instagram:hover,
   .fa-tiktok:hover {
-    color: #3deb11; }
+    color: #43d320; }
 
 /*MENU  DE NAVEGACION */
 .navbar {
@@ -185,7 +185,7 @@ p {
   color: #06c2cc; }
 
 .menu__care {
-  color: #3deb11; }
+  color: #43d320; }
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 1rem;
@@ -195,9 +195,9 @@ p {
   .navbar-light .navbar-nav .nav-link:active {
     font-size: 1rem;
     font-weight: 600;
-    color: #3deb11; }
+    color: #43d320; }
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #3deb11; }
+    color: #43d320; }
 
 .menu__rrss li:hover {
   background-color: transparent; }
@@ -354,19 +354,19 @@ p {
   border: 2px solid #06c2cc;
   background-color: #06c2cc; }
   .boton-principal:hover {
-    border: 2px solid white;
-    background-color: transparent; }
+    border: 2px solid #fc00ff;
+    background-color: #fc00ff; }
 
 .boton-second {
-  margin: 1.5em auto;
+  margin: 1.5em auto 0;
   width: 10em;
-  border: 2px solid #3deb11;
+  border: 2px solid #43d320;
   font-weight: 600;
   color: white;
-  background-color: #3deb11; }
+  background-color: #43d320; }
   .boton-second:hover {
-    border: 2px solid #3deb11;
-    color: #3deb11;
+    border: 2px solid #43d320;
+    color: #43d320;
     background-color: transparent;
     letter-spacing: 2px; }
 
@@ -383,14 +383,14 @@ p {
 
 .fa-whatsapp-square {
   font-size: 3.6rem;
-  color: #3deb11; }
+  color: #43d320; }
 
 .btn-footer {
   border: none;
   color: #8a8a8a;
   background: transparent; }
   .btn-footer:hover {
-    color: #3deb11; }
+    color: #43d320; }
 
 .fa-facebook-f,
 .fa-instagram,
@@ -399,7 +399,7 @@ p {
   .fa-facebook-f:hover,
   .fa-instagram:hover,
   .fa-tiktok:hover {
-    color: #3deb11; }
+    color: #43d320; }
 
 /* HEADER */
 .header {
@@ -420,11 +420,11 @@ p {
     max-height: 700px; }
     .header .cajon h1 {
       color: white;
-      font-size: 1.5em; }
+      font-size: 1.6em; }
     .header .cajon h3 {
       font-size: .8em; }
     .header .cajon p {
-      font-size: .4em;
+      font-size: .5em;
       font-weight: 500; }
     .header .cajon a {
       margin: 0 auto; }
@@ -471,7 +471,7 @@ p {
   .estadisticas div:nth-child(2) h4 {
     color: #06c2cc; }
   .estadisticas div:nth-child(3) h4 {
-    color: #3deb11; }
+    color: #43d320; }
   .estadisticas div p {
     margin-left: 15px;
     font-size: .55em; }
@@ -497,10 +497,13 @@ p {
     box-shadow: 8px 11px 16px 0px rgba(165, 177, 198, 0.8); }
   .promociones .card-title {
     font-size: .6em;
-    font-weight: 500; }
+    font-weight: 500;
+    text-align: center; }
   .promociones .card-text {
     font-size: .4em;
     color: rgba(49, 49, 49, 0.8); }
+    .promociones .card-text del {
+      color: red; }
   .promociones .card-body a {
     font-size: .4em; }
 
@@ -982,7 +985,7 @@ select {
     .footer .copyright__footer a:visited {
       color: #06c2cc; }
     .footer .copyright__footer a:hover {
-      color: #3deb11; }
+      color: #43d320; }
   .footer .copyright__footer p {
     color: #8a8a8a; }
 
@@ -994,7 +997,7 @@ select {
 .subenlace__footer {
   color: #8a8a8a; }
   .subenlace__footer:hover {
-    color: #3deb11; }
+    color: #43d320; }
 
 .background__copyright__footer {
   background-color: #1f1f1f; }
