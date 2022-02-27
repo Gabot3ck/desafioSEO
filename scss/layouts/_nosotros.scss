@@ -41,12 +41,21 @@
         margin-bottom: 1em;
         font-weight: 600;
         font-size: 1.1em;
+        color: $color-background;
     }
     h4{
-        margin-bottom: 2em;
+        margin-bottom: 1.7em;
+        font-size: .9em;
+        font-weight: 500;
+        color: $color-secondary;
     }
     p{
-        font-size: .4em;
+        font-size: .5em;
         color: rgba(49, 49, 49, 0.8);
+    }
+    .wrapper{
+        &>p{
+            font-size: .43em;
+        }
     }
 }
