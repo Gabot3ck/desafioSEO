@@ -97,7 +97,9 @@
         }
     }
 
-    .nosotros__header{
+    .nosotros__header,
+    .servicios__header,
+    .contacto__header{
         .cajon{
             h1{
                 font-size: 1.8em;
@@ -218,7 +220,9 @@
         }
     } 
     
-    .nosotros__header{
+    .nosotros__header,
+    .servicios__header,
+    .contacto__header{
         .cajon{
             h1{
                 font-size: 1.7em;
@@ -261,7 +265,9 @@
 /* DESKTOP */
 
 @media screen and (min-width: 992px) and (max-width: 1023px){
-    .nosotros__header{
+    .nosotros__header,
+    .servicios__header,
+    .contacto__header{
         .cajon{
             h1{
                 font-size: 1.8em;
@@ -288,7 +294,8 @@
             font-size: 1.3em;
         }
 	}
-    .clientes{
+    .clientes,
+    section{
         h2{
             font-size: 1.3em;
         }
@@ -312,4 +319,9 @@
 	}
 }
 
+@media screen and (min-width: 992px) and (max-width: 1157px){
+    .caja-pediatria{
+        padding: 1rem 0;
+    }
+}
 /********** F I N       M  E  D  I  A     Q  U  E  R  I  E  S  **********/

@@ -1097,11 +1097,17 @@ select {
       font-size: .4em; }
   .header img {
     width: 100%; }
-  .nosotros__header .cajon h1 {
+  .nosotros__header .cajon h1,
+  .servicios__header .cajon h1,
+  .contacto__header .cajon h1 {
     font-size: 1.8em; }
-  .nosotros__header .cajon p {
+  .nosotros__header .cajon p,
+  .servicios__header .cajon p,
+  .contacto__header .cajon p {
     font-size: .75em; }
-  .nosotros__header .cajon .boton-principal {
+  .nosotros__header .cajon .boton-principal,
+  .servicios__header .cajon .boton-principal,
+  .contacto__header .cajon .boton-principal {
     margin-top: 30px;
     margin-left: 4em;
     transform: scale(1.4, 1.4); }
@@ -1162,11 +1168,17 @@ select {
       text-align: center; }
     .header .cajon .boton-principal {
       transform: scale(1.5, 1.5); }
-  .nosotros__header .cajon h1 {
+  .nosotros__header .cajon h1,
+  .servicios__header .cajon h1,
+  .contacto__header .cajon h1 {
     font-size: 1.7em; }
-  .nosotros__header .cajon p {
+  .nosotros__header .cajon p,
+  .servicios__header .cajon p,
+  .contacto__header .cajon p {
     font-size: .6em; }
-  .nosotros__header .cajon .boton-principal {
+  .nosotros__header .cajon .boton-principal,
+  .servicios__header .cajon .boton-principal,
+  .contacto__header .cajon .boton-principal {
     margin-top: 30px;
     margin-left: 3.2em;
     transform: scale(1.2, 1.2); }
@@ -1187,11 +1199,17 @@ select {
 
 /* DESKTOP */
 @media screen and (min-width: 992px) and (max-width: 1023px) {
-  .nosotros__header .cajon h1 {
+  .nosotros__header .cajon h1,
+  .servicios__header .cajon h1,
+  .contacto__header .cajon h1 {
     font-size: 1.8em; }
-  .nosotros__header .cajon p {
+  .nosotros__header .cajon p,
+  .servicios__header .cajon p,
+  .contacto__header .cajon p {
     font-size: .7em; }
-  .nosotros__header .cajon .boton-principal {
+  .nosotros__header .cajon .boton-principal,
+  .servicios__header .cajon .boton-principal,
+  .contacto__header .cajon .boton-principal {
     margin-top: 40px;
     margin-left: 4em;
     transform: scale(1.3, 1.3); }
@@ -1203,7 +1221,8 @@ select {
     margin-top: 100px; }
     .calidad h2 {
       font-size: 1.3em; }
-  .clientes h2 {
+  .clientes h2,
+  section h2 {
     font-size: 1.3em; } }
 
 @media screen and (min-width: 1024px) {
@@ -1215,5 +1234,9 @@ select {
 @media screen and (min-width: 1200px) {
   .calidad {
     margin-top: 450px; } }
+
+@media screen and (min-width: 992px) and (max-width: 1157px) {
+  .caja-pediatria {
+    padding: 1rem 0; } }
 
 /********** F I N       M  E  D  I  A     Q  U  E  R  I  E  S  **********/
