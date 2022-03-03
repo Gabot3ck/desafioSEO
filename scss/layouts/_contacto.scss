@@ -1,4 +1,5 @@
 @import "utilidades/variables";
+@import "utilidades/sombras";
 
 /* CONTACTO  */
 
@@ -45,6 +46,14 @@
 	justify-items: center;
     .titulo__enlaces{
         grid-area: titulo;
+        h2{
+            font-size: 1.1em;
+        }
+        p{
+            font-size: .5em;
+            color: rgba(49, 49, 49, 0.8);
+
+        }
     }
     form{
         padding: 20px 10px;
@@ -131,11 +140,11 @@ select{
     h3{
         margin-bottom: 30px;
         grid-area: subtitulo;
-        font-size: .6em;
+        font-size: 1.5rem;
     }
     h4{
         margin-bottom: 30px;
-        font-size: .5em;
+        font-size: 1.1rem;
     }
 }
 
@@ -148,7 +157,7 @@ select{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        font-size: .4em;
+        font-size: 1rem;
     }
     div{
         width: 300px;
@@ -156,12 +165,10 @@ select{
     }
 
 }
-
-
 .ubicacion__direccion{
 	grid-area: direccion;
     p{
-        font-size: .4em;
+        font-size: 1rem;
     }
 }
 
@@ -170,6 +177,7 @@ select{
         border: 0;
         width: 100%;
         min-height: 320px;
+        @include efecto_sombra;
     }
 }
 

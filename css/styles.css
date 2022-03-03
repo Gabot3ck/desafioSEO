@@ -901,6 +901,11 @@ p {
   justify-items: center; }
   .wrapper__formulario .titulo__enlaces {
     grid-area: titulo; }
+    .wrapper__formulario .titulo__enlaces h2 {
+      font-size: 1.1em; }
+    .wrapper__formulario .titulo__enlaces p {
+      font-size: .5em;
+      color: rgba(49, 49, 49, 0.8); }
   .wrapper__formulario form {
     padding: 20px 10px;
     width: 100%;
@@ -970,10 +975,10 @@ select {
   .ubicacion h3 {
     margin-bottom: 30px;
     grid-area: subtitulo;
-    font-size: .6em; }
+    font-size: 1.5rem; }
   .ubicacion h4 {
     margin-bottom: 30px;
-    font-size: .5em; }
+    font-size: 1.1rem; }
 
 .wrapper__datos__direccion {
   margin-bottom: 30px;
@@ -984,7 +989,7 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: .4em; }
+    font-size: 1rem; }
   .wrapper__datos__direccion div {
     width: 300px;
     height: auto; }
@@ -992,12 +997,15 @@ select {
 .ubicacion__direccion {
   grid-area: direccion; }
   .ubicacion__direccion p {
-    font-size: .4em; }
+    font-size: 1rem; }
 
 .ubicacion__mapa iframe {
   border: 0;
   width: 100%;
-  min-height: 320px; }
+  min-height: 320px;
+  -webkit-box-shadow: 8px 11px 16px 0px rgba(165, 177, 198, 0.8);
+  -moz-box-shadow: 8px 11px 16px 0px rgba(165, 177, 198, 0.8);
+  box-shadow: 8px 11px 16px 0px rgba(165, 177, 198, 0.8); }
 
 .fa-map-marker-alt,
 .fa-envelope,
@@ -1218,12 +1226,19 @@ select {
     .promociones h2 {
       font-size: 1.3em; }
   .calidad {
-    margin-top: 100px; }
+    margin-top: 280px; }
     .calidad h2 {
       font-size: 1.3em; }
   .clientes h2,
   section h2 {
     font-size: 1.3em; } }
+
+@media screen and (min-width: 769px) and (max-width: 1099px) {
+  .ubicacion {
+    padding-right: 0;
+    padding-left: 0; }
+    .ubicacion ul {
+      padding-left: 5px; } }
 
 @media screen and (min-width: 1024px) {
   .promociones {
