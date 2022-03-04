@@ -195,9 +195,28 @@
             }
         }
     }
+    .wrapper__formulario{
+        .titulo__enlaces{
+            h2{
+                font-size: 1.25em;
+            }
+            p{
+                font-size: .6em;
+            }
+        }
+    }
 }
 
-
+@media screen and (min-width: 576px) and (max-width: 991px){
+    .header{
+        .img-header{
+            margin: 0 auto;
+            width: 50%;
+            max-width: 450px;
+            height: 50%;
+        }
+    }
+}
 
 
 @media screen and (min-width: 769px) and (max-width: 991px){

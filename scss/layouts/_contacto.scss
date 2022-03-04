@@ -52,7 +52,6 @@
         p{
             font-size: .5em;
             color: rgba(49, 49, 49, 0.8);
-
         }
     }
     form{
@@ -90,6 +89,11 @@
             height: 45px;
             color: $color-contacto;
             font-size: 1rem;
+            &:focus{
+                outline: none;
+                border-color: $color-background !important;
+                box-shadow: none;
+            }
         }
         textarea{
             min-height: 230px;

@@ -936,6 +936,10 @@ p {
       height: 45px;
       color: #555555;
       font-size: 1rem; }
+      .wrapper__formulario form .form-control:focus {
+        outline: none;
+        border-color: #06c2cc !important;
+        box-shadow: none; }
     .wrapper__formulario form textarea {
       min-height: 230px; }
 
@@ -1162,7 +1166,18 @@ select {
   .contenedor p {
     font-size: .62em; }
   .contenedor .wrapper > p {
-    font-size: .55em; } }
+    font-size: .55em; }
+  .wrapper__formulario .titulo__enlaces h2 {
+    font-size: 1.25em; }
+  .wrapper__formulario .titulo__enlaces p {
+    font-size: .6em; } }
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .header .img-header {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 450px;
+    height: 50%; } }
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
   .header .cajon {
