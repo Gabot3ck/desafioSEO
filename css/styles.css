@@ -900,6 +900,7 @@ p {
   grid-template-areas: "titulo      titulo      titulo      titulo" "formulario  formulario  ubicacion   ubicacion";
   justify-items: center; }
   .wrapper__formulario .titulo__enlaces {
+    padding-top: 100px;
     grid-area: titulo; }
     .wrapper__formulario .titulo__enlaces h2 {
       font-size: 1.1em; }
@@ -1170,7 +1171,13 @@ select {
   .wrapper__formulario .titulo__enlaces h2 {
     font-size: 1.25em; }
   .wrapper__formulario .titulo__enlaces p {
-    font-size: .6em; } }
+    font-size: .6em; }
+  .ubicacion ul {
+    padding-left: 15px; }
+  .ubicacion .ubicacion__direccion {
+    width: 100%; }
+    .ubicacion .ubicacion__direccion p {
+      padding-left: 15px; } }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
   .header .img-header {

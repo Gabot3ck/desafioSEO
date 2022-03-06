@@ -205,6 +205,17 @@
             }
         }
     }
+    .ubicacion{
+        ul{
+            padding-left: 15px;
+        }
+        .ubicacion__direccion{
+            width: 100%;
+            p{
+                padding-left: 15px;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px){
