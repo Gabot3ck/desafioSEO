@@ -195,6 +195,14 @@
         height: 100%;
     }
 }
+.lista-brackets{
+    margin-top: 15px;
+    li{
+        font-size: .6em;
+        color: rgba(49,49,49,.8);
+        list-style: disc;
+    }
+}
 
 /*periodoncia */
 .periodoncia__header{

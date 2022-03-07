@@ -843,6 +843,13 @@ p {
     width: 100%;
     height: 100%; }
 
+.lista-brackets {
+  margin-top: 15px; }
+  .lista-brackets li {
+    font-size: .6em;
+    color: rgba(49, 49, 49, 0.8);
+    list-style: disc; }
+
 /*periodoncia */
 .periodoncia__header {
   background: rgba(27, 30, 31, 0.9);
