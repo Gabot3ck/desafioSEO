@@ -846,7 +846,6 @@ p {
 .lista-brackets {
   margin-top: 15px; }
   .lista-brackets li {
-    font-size: .6em;
     color: rgba(49, 49, 49, 0.8);
     list-style: disc; }
 
@@ -1119,15 +1118,33 @@ select {
     width: 100%; }
   .nosotros__header .cajon h1,
   .servicios__header .cajon h1,
-  .contacto__header .cajon h1 {
+  .contacto__header .cajon h1,
+  .odontologia__header .cajon h1,
+  .endodoncia__header .cajon h1,
+  .estetica__header .cajon h1,
+  .odontopediatria__header .cajon h1,
+  .ortodoncia__header .cajon h1,
+  .periodoncia__header .cajon h1 {
     font-size: 1.8em; }
   .nosotros__header .cajon p,
   .servicios__header .cajon p,
-  .contacto__header .cajon p {
+  .contacto__header .cajon p,
+  .odontologia__header .cajon p,
+  .endodoncia__header .cajon p,
+  .estetica__header .cajon p,
+  .odontopediatria__header .cajon p,
+  .ortodoncia__header .cajon p,
+  .periodoncia__header .cajon p {
     font-size: .75em; }
   .nosotros__header .cajon .boton-principal,
   .servicios__header .cajon .boton-principal,
-  .contacto__header .cajon .boton-principal {
+  .contacto__header .cajon .boton-principal,
+  .odontologia__header .cajon .boton-principal,
+  .endodoncia__header .cajon .boton-principal,
+  .estetica__header .cajon .boton-principal,
+  .odontopediatria__header .cajon .boton-principal,
+  .ortodoncia__header .cajon .boton-principal,
+  .periodoncia__header .cajon .boton-principal {
     margin-top: 30px;
     margin-left: 4em;
     transform: scale(1.4, 1.4); }
@@ -1207,15 +1224,33 @@ select {
       transform: scale(1.5, 1.5); }
   .nosotros__header .cajon h1,
   .servicios__header .cajon h1,
-  .contacto__header .cajon h1 {
+  .contacto__header .cajon h1,
+  .odontologia__header .cajon h1,
+  .endodoncia__header .cajon h1,
+  .estetica__header .cajon h1,
+  .odontopediatria__header .cajon h1,
+  .ortodoncia__header .cajon h1,
+  .periodoncia__header .cajon h1 {
     font-size: 1.7em; }
   .nosotros__header .cajon p,
   .servicios__header .cajon p,
-  .contacto__header .cajon p {
+  .contacto__header .cajon p,
+  .odontologia__header .cajon p,
+  .endodoncia__header .cajon p,
+  .estetica__header .cajon p,
+  .odontopediatria__header .cajon p,
+  .ortodoncia__header .cajon p,
+  .periodoncia__header .cajon p {
     font-size: .6em; }
   .nosotros__header .cajon .boton-principal,
   .servicios__header .cajon .boton-principal,
-  .contacto__header .cajon .boton-principal {
+  .contacto__header .cajon .boton-principal,
+  .odontologia__header .cajon .boton-principal,
+  .endodoncia__header .cajon .boton-principal,
+  .estetica__header .cajon .boton-principal,
+  .odontopediatria__header .cajon .boton-principal,
+  .ortodoncia__header .cajon .boton-principal,
+  .periodoncia__header .cajon .boton-principal {
     margin-top: 30px;
     margin-left: 3.2em;
     transform: scale(1.2, 1.2); }
@@ -1238,15 +1273,33 @@ select {
 @media screen and (min-width: 992px) and (max-width: 1023px) {
   .nosotros__header .cajon h1,
   .servicios__header .cajon h1,
-  .contacto__header .cajon h1 {
+  .contacto__header .cajon h1,
+  .odontologia__header .cajon h1,
+  .endodoncia__header .cajon h1,
+  .estetica__header .cajon h1,
+  .odontopediatria__header .cajon h1,
+  .ortodoncia__header .cajon h1,
+  .periodoncia__header .cajon h1 {
     font-size: 1.8em; }
   .nosotros__header .cajon p,
   .servicios__header .cajon p,
-  .contacto__header .cajon p {
+  .contacto__header .cajon p,
+  .odontologia__header .cajon p,
+  .endodoncia__header .cajon p,
+  .estetica__header .cajon p,
+  .odontopediatria__header .cajon p,
+  .ortodoncia__header .cajon p,
+  .periodoncia__header .cajon p {
     font-size: .7em; }
   .nosotros__header .cajon .boton-principal,
   .servicios__header .cajon .boton-principal,
-  .contacto__header .cajon .boton-principal {
+  .contacto__header .cajon .boton-principal,
+  .odontologia__header .cajon .boton-principal,
+  .endodoncia__header .cajon .boton-principal,
+  .estetica__header .cajon .boton-principal,
+  .odontopediatria__header .cajon .boton-principal,
+  .ortodoncia__header .cajon .boton-principal,
+  .periodoncia__header .cajon .boton-principal {
     margin-top: 40px;
     margin-left: 4em;
     transform: scale(1.3, 1.3); }
