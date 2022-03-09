@@ -56,3 +56,14 @@ p{
 	max-width:  map-get($wrapper, max-width);
 	height:  map-get($wrapper, height);
 }
+
+.modal-body{
+	p{
+		margin-bottom: 20px;
+		line-height: 1.5;
+	}
+	.subtitulo-modal{
+		margin: 10px 0 !important;
+		color: red;
+	}
+}

@@ -47,6 +47,14 @@ p {
   max-width: 1200px;
   height: inherit; }
 
+.modal-body p {
+  margin-bottom: 20px;
+  line-height: 1.5; }
+
+.modal-body .subtitulo-modal {
+  margin: 10px 0 !important;
+  color: red; }
+
 /* TAMANIOS DE FUENTE */
 .step-1 {
   font-size: clamp(0.68rem,  0.36rem   +  0.61vw,  0.81rem); }
