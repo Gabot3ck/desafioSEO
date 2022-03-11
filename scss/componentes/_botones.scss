@@ -27,9 +27,14 @@
 	border: 2px solid $color-background;
 	background-color: $color-background;
         &:hover{
-            border: 2px solid $color-pink;
-            background-color: $color-pink;
+            border: 2px solid $color-secondary;
+            background-color: $color-secondary;
         }
+		&:visited,
+		&:active{
+			border: 2px solid $color-background;
+			background-color: $color-background;
+		}
 }
 .boton-second{
 	margin: 1.5em auto 0;

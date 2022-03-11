@@ -38,7 +38,21 @@
     .ubicacion__direccion{
 		padding-left: 30px;
 	}
+
+    .calidad{
+        .wrapper{
+            >div{
+                margin-bottom: 8em;
+            }
+        }
+    }
+    .promociones{
+        .card-title{
+            font-size: .9em;
+        }
+    }
 }
+
 
 
 /* TABLET */
@@ -123,10 +137,7 @@
 
     .promociones{
         h2{
-            font-size: 1.6em;
-        }
-        .card-title{
-            font-size: 1.025em;
+            font-size: 1.4em;
         }
         .card-text{
             font-size: .6em;
@@ -154,14 +165,9 @@
                 font-size: .6em;
             }
         }
-        .wrapper{
-            >div{
-                margin-bottom: 6.5em;
-            }
-        }
         h2{
             padding: 0 10px;
-            font-size: 1.6em;
+            font-size: 1.4em;
         }
     }
     .img__calidad{
@@ -171,12 +177,12 @@
 		max-height: 700px;
 	}
 	#nosotros{
-		margin-top: 20px;
+		margin-top: -80px;
 	}
     .clientes{
         h2,
         .fa-thumbs-up{
-            font-size: 1.6em;
+            font-size: 1.4em;
         }
         .carousel-control-next{
             margin-right: -10px;

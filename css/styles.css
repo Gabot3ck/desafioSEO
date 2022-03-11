@@ -140,8 +140,11 @@ p {
   border: 2px solid #06c2cc;
   background-color: #06c2cc; }
   .boton-principal:hover {
-    border: 2px solid #fc00ff;
-    background-color: #fc00ff; }
+    border: 2px solid #43d320;
+    background-color: #43d320; }
+  .boton-principal:visited, .boton-principal:active {
+    border: 2px solid #06c2cc;
+    background-color: #06c2cc; }
 
 .boton-second {
   margin: 1.5em auto 0;
@@ -383,8 +386,11 @@ p {
   border: 2px solid #06c2cc;
   background-color: #06c2cc; }
   .boton-principal:hover {
-    border: 2px solid #fc00ff;
-    background-color: #fc00ff; }
+    border: 2px solid #43d320;
+    background-color: #43d320; }
+  .boton-principal:visited, .boton-principal:active {
+    border: 2px solid #06c2cc;
+    background-color: #06c2cc; }
 
 .boton-second {
   margin: 1.5em auto 0;
@@ -1088,7 +1094,11 @@ select {
     flex-direction: column; }
   .ubicacion__datos,
   .ubicacion__direccion {
-    padding-left: 30px; } }
+    padding-left: 30px; }
+  .calidad .wrapper > div {
+    margin-bottom: 8em; }
+  .promociones .card-title {
+    font-size: .9em; } }
 
 /* TABLET */
 @media (min-width: 481px) and (max-width: 768px) {
@@ -1157,9 +1167,7 @@ select {
     margin-left: 4em;
     transform: scale(1.4, 1.4); }
   .promociones h2 {
-    font-size: 1.6em; }
-  .promociones .card-title {
-    font-size: 1.025em; }
+    font-size: 1.4em; }
   .promociones .card-text {
     font-size: .6em; }
   .promociones .card-body a {
@@ -1174,20 +1182,18 @@ select {
         font-size: .8em; }
     .calidad .cuerpo__calidad a {
       font-size: .6em; }
-  .calidad .wrapper > div {
-    margin-bottom: 6.5em; }
   .calidad h2 {
     padding: 0 10px;
-    font-size: 1.6em; }
+    font-size: 1.4em; }
   .img__calidad {
     height: 12em; }
   .nosotros__header {
     max-height: 700px; }
   #nosotros {
-    margin-top: 20px; }
+    margin-top: -80px; }
   .clientes h2,
   .clientes .fa-thumbs-up {
-    font-size: 1.6em; }
+    font-size: 1.4em; }
   .clientes .carousel-control-next {
     margin-right: -10px; }
   .clientes .carousel-control-prev {
