@@ -51,6 +51,55 @@
             font-size: .9em;
         }
     }
+    .nosotros__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/nosotros-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/nosotros-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .servicios__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/servicios-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/servicios-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .odontologia__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/odontologia-fondo-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/odontologia-fondo-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .endodoncia__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/endodoncia-fondo-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/endodoncia-fondo-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .estetica__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/estetica-dental-fondo-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/estetica-dental-fondo-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .odontopediatria__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/odontopediatria-fondo-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/odontopediatria-fondo-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .ortodoncia__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/ortodoncia-fondo-small.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/ortodoncia-fondo-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -71,6 +120,55 @@
 	.ubicacion__datos{
 		padding-left: 30px;
 	}
+    .nosotros__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/nosotros-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/nosotros-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .servicios__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/servicios-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/servicios-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .odontologia__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/odontologia-fondo-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/odontologia-fondo-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .endodoncia__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/endodoncia-fondo-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/endodoncia-fondo-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .estetica__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/estetica-dental-fondo-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/estetica-dental-fondo-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .odontopediatria__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/odontopediatria-fondo-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/odontopediatria-fondo-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .ortodoncia__header{
+        background: rgba(27, 30, 31, .9);
+        background: -webkit-linear-gradient(to bottom,rgba(27, 30, 31, 0.5), rgba(27,31,32,.5) ), url(../images/ortodoncia-fondo-medium.jpg);
+        background: linear-gradient(to bottom,rgba(27, 30, 31, 0.5),rgba(27,31,32,.5)), url(../images/ortodoncia-fondo-medium.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 @media screen and (max-width: 768px) {
